@@ -15,7 +15,7 @@ you might choose your favourite editor here (I recommend nano)
 at the end of the file add:
 
 */20 * * * * /home/[your username]/Desktop/BatteryNotification
-# Battery notification every 20 minutes
+"# Battery notification every 20 minutes"
 
 close your file with ctrl + x, type "y" and save it under its default name with enter
 
