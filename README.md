@@ -1,23 +1,25 @@
 # LinuxBatteryNotification
-simple bash script for ubuntu to be notified about battery status after 20 minutes
+Simple bash script for ubuntu to be notified about battery status. Show alert if battery status is less than 30 percent.
 
-1. download it and put it on your desktop
+1. Download it and put it on your desktop
 
-2. open your terminal and configure crontab
-open terminal with ctrl + alt + t
+2. Open your terminal and configure crontab
+Open terminal with ctrl + alt + t.
 
-type 
+Type 
 $ crontab -e
-crontab is for continuous starting programs
+Crontab is for continuous starting programs.
 
-you might choose your favourite editor here (I recommend nano)
+You might choose your favourite editor here (I recommend nano).
 
-at the end of the file add:
+At the end of the file add:
 
-*/20 * * * * /home/[your username]/Desktop/BatteryNotification
-# Battery notification every 20 minutes
+*/10 * * * * /home/[your username]/Desktop/BatteryNotification
+# Battery notification check every 10 minutes
 
-close your file with ctrl + x, type "y" and save it under its default name with enter
+The programm is executed every 10 minutes!
+
+Close your file with ctrl + x, type "y" and save it under its default name with enter.
 
 3. Note
 Your might change the time with another number instead of 20.
