@@ -30,4 +30,4 @@ Your must have zenity installed. Check it with "zenity --info --text "Hello Worl
 The path in crontab must be correct. Open your terminal at the location of BatteryNotification and 
 type "pwd" to get the correct path.
 
-It might also be helpful to set the time to 1 rather than 10
+It might also be helpful to set the time to 1 rather than 10.
