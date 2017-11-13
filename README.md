@@ -14,8 +14,7 @@ You might choose your favourite editor here (I recommend nano).
 
 At the end of the file add:
 
-*/10 * * * * /home/[your username]/Desktop/BatteryNotification
-# Battery notification check every 10 minutes
+*/10 * * * * /home/[your username]/Desktop/BatteryNotification.sh
 
 The programm is executed every 10 minutes!
 
@@ -30,3 +29,5 @@ Your must have zenity installed. Check it with "zenity --info --text "Hello Worl
 
 The path in crontab must be correct. Open your terminal at the location of BatteryNotification and 
 type "pwd" to get the correct path.
+
+It might also be helpful to set the time to 1 rather than 10
