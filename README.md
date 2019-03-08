@@ -21,7 +21,7 @@ The programm is executed every 10 minutes!
 Close your file with ctrl + x, type "y" and save it under its default name with enter.
 
 3. Note
-Your might change the time with another number instead of 20.
+Your might change the time with another number instead of 10.
 
 4. Problems
 
