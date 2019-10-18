@@ -1,4 +1,4 @@
-# LinuxBatteryNotification
+# BatteryNotification
 Simple bash script for ubuntu to be notified about battery status. Show alert if battery status is less than 30 percent.
 
 1. Download it and put it on your desktop
