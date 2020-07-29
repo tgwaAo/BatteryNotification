@@ -14,7 +14,7 @@ Simple bash script for ubuntu to be notified about battery status. Show alert if
 
   At the end of the file add:
 
-  */10 * * * * /home/[your username]/Desktop/battery_notification.py
+  */10 * * * * /home/[your username]/BatteryNotification/BatteryNotification.sh
 
   The programm is executed every 10 minutes!
 
@@ -25,7 +25,7 @@ Simple bash script for ubuntu to be notified about battery status. Show alert if
 
 4. Problems
 
-  Your must have zenity installed. Check it with "zenity --info --text "Hello World!"
+  Your must have zenity installed. Check it with zenity --info --text "Hello World!"
 
   The path in crontab must be correct. Open your terminal at the location of BatteryNotification and 
   type "pwd" to get the correct path.
