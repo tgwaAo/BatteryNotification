@@ -31,3 +31,5 @@ Simple bash script for ubuntu to be notified about battery status. Show alert if
   type "pwd" to get the correct path.
 
   It might also be helpful to set the time to 1 rather than 10.
+
+  You can check your display with $ echo $DISPLAY and change DISPLAY = 0 at line 8 to your display number.
