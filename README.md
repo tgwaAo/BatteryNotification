@@ -14,7 +14,7 @@ Simple bash script for ubuntu to be notified about battery status. Show alert if
 
   At the end of the file add:
 
-  */10 * * * * /home/[your username]/Desktop/BatteryNotification.sh
+  */10 * * * * /home/[your username]/Desktop/battery_notification.py
 
   The programm is executed every 10 minutes!
 
