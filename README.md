@@ -25,7 +25,7 @@ Simple bash script for ubuntu to be notified about battery status. Show alert if
 
 4. Problems
 
-  Your must have zenity installed. Check it with zenity --info --text "Hello World!"
+  Your must have zenity installed. Check it with $ zenity --info --text "Hello World!"
 
   The path in crontab must be correct. Open your terminal at the location of BatteryNotification and 
   type "pwd" to get the correct path.
@@ -33,3 +33,6 @@ Simple bash script for ubuntu to be notified about battery status. Show alert if
   It might also be helpful to set the time to 1 rather than 10.
 
   You can check your display with $ echo $DISPLAY and change DISPLAY = 0 at line 8 to your display number.
+  
+  There could also be an issue with the user rights. Please make sure the file is executable.
+  
